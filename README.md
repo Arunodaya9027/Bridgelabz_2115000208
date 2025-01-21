@@ -37,3 +37,5 @@ Repository](https://github.com/Arunodaya9027/Assignment_19-01-2025).
 - Covered Java Compiler vs Interpreter
 
 - Covered all Pillars of OOPS with their Real-World based Examples
+
+- Practiced different types of Static Keyword Usage for more Understanding
