@@ -20,3 +20,20 @@ Repository](https://github.com/Arunodaya9027/Assignment_19-01-2025).
 	- Java - Static
 	- Java Operators
 	- Java Naming Convention
+
+## Date: 21-01-2025
+- Covered Whole Java Fundamentals
+	- Java DataTypes
+
+- Covered Architecture and Understanding of JDK, JRE and JVM Levels
+	- More Deep-dive into it
+	- Cover Different Types in each one like javac, javadoc, .jar, javap, JIT compiler, and much more.
+	- Detailed Workflow of how a Code actually work after writing it. 
+
+- Covered Different Types of Memory
+
+- Covered High Level vs Low Level Programming
+
+- Covered Java Compiler vs Interpreter
+
+- Covered all Pillars of OOPS with their Real-World based Examples
