@@ -39,3 +39,6 @@ Repository](https://github.com/Arunodaya9027/Assignment_19-01-2025).
 - Covered all Pillars of OOPS with their Real-World based Examples
 
 - Practiced different types of Static Keyword Usage for more Understanding
+
+## Date: 22-01-2025
+- Successfully completed all the Level-1 practice problems from the Assignment 2 and push (here)[https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/assignment_2/22-01-2025] in Github.
