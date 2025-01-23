@@ -9,13 +9,13 @@ public class ComputeBMI {
 		double bmi = weight/(height/100 * height/100);
 		
 		if(bmi <= 18.4)
-			System.out.printf("You are Underweight. Your BMI is %d.", bmi);
+			System.out.printf("You are Underweight. Your BMI is %.2f.", bmi);
 		else if(bmi < 25)
-			System.out.printf("You are Normal weight. Your BMI is %d.", bmi);
+			System.out.printf("You are Normal weight. Your BMI is %.2f.", bmi);
 		else if(bmi < 40)
-			System.out.printf("You are Overweight. Your BMI is %d.", bmi);
+			System.out.printf("You are Overweight. Your BMI is %.2f.", bmi);
 		else
-			System.out.printf("You are Obese. Your BMI is %d.", bmi);
+			System.out.printf("You are Obese. Your BMI is %.2f.", bmi);
 		input.close();
 	}
 }
