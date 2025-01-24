@@ -59,4 +59,14 @@ Assignment titled "Few Problems to start with.pdf" in the following
 	- for-each loop
 	- while loop
 	- do-while loop
+
 - Successfully completed all the Level-1, Level-2 and Level-3 practice problems of the Assignment 3 named 'Java Control Flow' and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/23-01-2025) in Github.
+
+### Date: 24-01-2025
+- Covered About the Java Arrays
+	- Initializing the Array, accessing and modifying elements of Array
+	- Traversing in Array
+	- Single and multi-dimensional Array
+
+- Covered About the System.err (an instance of PrintStream) and System.exit().
+- Covered About the Best Programming Practice need to follow in Arrays.
