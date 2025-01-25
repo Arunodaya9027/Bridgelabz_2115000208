@@ -70,3 +70,9 @@ Assignment titled "Few Problems to start with.pdf" in the following
 
 - Covered About the System.err (an instance of PrintStream) and System.exit().
 - Covered About the Best Programming Practice need to follow in Arrays.
+
+### Date: 25-01-2025
+- Successfully completed all the Level-1 and Level-2 practice problems of the Assignment 4 named 'Arrays Practices' and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/25-01-2025) in Github.
+- Enrich my knowledge by learning about more Escape sequences (other than '\n') and used them as practice in assignment questions.
+
+
