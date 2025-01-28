@@ -14,7 +14,7 @@ public class DivisionOfNumbers{
 		number = input.nextInt();
 		divisor = input.nextInt();
 		int[] result = findRemainderAndQuotient(number, divisor);
-		System.out.printf("After dividing %d by %d, we get %d as quotient and %d as remainder.", number, divisor, quotient, remainder);
+		System.out.printf("After dividing %d by %d, we get %d as quotient and %d as remainder.", number, divisor, result[0], result[1]);
 		input.close();
 	}
 }

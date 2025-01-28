@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CategoryOfNumber {
+public class CategoryOfNumbers {
 	public int nature(int num) {
 		if(num > 0)
 			return 1;
@@ -14,9 +14,8 @@ public class CategoryOfNumber {
 		int number;
 		Scanner input = new Scanner(System.in);
 		number = input.nextInt();
-		CategoryOfNumber obj = new CategoryOfNumber();
-		System.out.printf(obj.nature(number));
-		obj.close();
+		CategoryOfNumbers obj = new CategoryOfNumbers();
+		System.out.println(obj.nature(number));
 		input.close();
 	}
 }

@@ -13,7 +13,6 @@ public class MaximumNumberOfHandShakes2 {
 		MaximumNumberOfHandShakes hs = new MaximumNumberOfHandShakes();
 		possibleHandshakes = hs.handshakes(numberOfStudents);
 		System.out.printf("There are only %d Handshakes possible between %d students.", possibleHandshakes, numberOfStudents);
-		hs.close();
 		input.close();
 	}
 }

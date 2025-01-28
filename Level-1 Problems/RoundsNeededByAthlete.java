@@ -13,11 +13,10 @@ public class RoundsNeededByAthlete {
 		side1 = input.nextInt();
 		side2 = input.nextInt();
 		side3 = input.nextInt();
-		perimeter = input.nextInt();
+		perimeter = side1 + side2 + side3;
 		RoundsNeededByAthlete ath = new RoundsNeededByAthlete();
-		int completedRounds = ath.rounds(perimeter);
-		System.out.printf("For 5 kms, athlete need to run %d rounds of a given dimensions Triangular Park", completedRounds);
-		ath.close();
+		double completedRounds = ath.rounds(perimeter);
+		System.out.printf("For 5 kms, athlete need to run %.2f rounds of a given dimensions Triangular Park", completedRounds);
 		input.close();
 	}
 }

@@ -1,4 +1,6 @@
-public class ComputeSimpleinterest {
+import java.util.*;
+
+public class ComputeSimpleInterest {
 	public double simpleInterest(double principal, double rate, double time) {
 		double totalInterest;
 		totalInterest = principal * rate * time / 100;
@@ -11,10 +13,9 @@ public class ComputeSimpleinterest {
 		principal = input.nextDouble();
 		rate = input.nextDouble();
 		time = input.nextDouble();
-		ComputeSimpleinterest si = new ComputeSimpleinterest();
+		ComputeSimpleInterest si = new ComputeSimpleInterest();
 		double interest = si.simpleInterest(principal, rate, time);
-		System.out.printf(“The Simple Interest is %.2f for Principal %.2f, Rate of Interest %.2f and Time %.2f”, interest, principal, rate, time);
-		si.close();
+		System.out.printf("The Simple Interest is %.2f for Principal %.2f, Rate of Interest %.2f and Time %.2f", interest, principal, rate, time);
 		input.close();
 	}
 }

@@ -15,7 +15,6 @@ public class WindChillTemperature {
 		WindChillTemperature wc = new WindChillTemperature();
 		windChill = wc.calculateWindChill(temperature, windSpeed);
 		System.out.printf("The Wind Chill temperature is %.2f at temperature %.2f and wind speed %.2f", windChill, temperature, windSpeed);
-		wc.close();
 		input.close();
 	}
 }
