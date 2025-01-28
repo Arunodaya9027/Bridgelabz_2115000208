@@ -7,9 +7,9 @@ public class Quadratic {
         if (delta > 0) {
             roots[0] = (-b + Math.sqrt(delta)) / (2 * a);
             roots[1] = (-b - Math.sqrt(delta)) / (2 * a);
-        } else if (delta == 0) {
+        } 
+		else if (delta == 0)
             roots[0] = -b / (2 * a);
-        }
         return roots;
     }
 
@@ -21,13 +21,12 @@ public class Quadratic {
         c = input.nextDouble();
 
         double[] roots = findRoots(a, b, c);
-        if (roots.length == 2) {
+        if (roots.length == 2)
             System.out.printf("The roots of the equation are %.2f and %.2f\n", roots[0], roots[1]);
-        } else if (roots.length == 1) {
+        else if (roots.length == 1)
             System.out.printf("The root of the equation is %.2f\n", roots[0]);
-        } else {
+        else
             System.out.println("The equation has no real roots");
-        }
         input.close();
     }
 }

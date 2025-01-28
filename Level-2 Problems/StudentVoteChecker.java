@@ -1,11 +1,10 @@
 import java.util.*;
 public class StudentVoteChecker {
     public static boolean canStudentVote(int age) {
-        if (age < 0) {
+        if (age < 0)
             return false;
-        } else if (age >= 18) {
+        else if (age >= 18)
             return true;
-        }
         return false;
     }
 
@@ -14,11 +13,10 @@ public class StudentVoteChecker {
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < 10; i++) {
             age[i] = input.nextInt();
-            if (canStudentVote(age[i])) {
+            if (canStudentVote(age[i]))
                 System.out.printf("Student %d can vote\n", i + 1);
-            } else {
+            else
                 System.out.printf("Student %d cannot vote\n", i + 1);
-            }
         }
         input.close();
     }

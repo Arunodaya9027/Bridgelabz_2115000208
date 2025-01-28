@@ -14,9 +14,8 @@ public class AmarAkbarAnthony {
     public static double findTallest(double[] height) {
         double max = height[0];
         for (int i = 1; i < height.length; i++) {
-            if (height[i] > max) {
+            if (height[i] > max) 
                 max = height[i];
-            }
         }
         return max;
     }
