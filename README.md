@@ -1,6 +1,6 @@
 # Bridgelabz_2115000208
 
-This repository contains the progress and work done for the Java learning journey.
+This repository contains the progress and work done of my Java Training journey.
 
 ## Work History
 
