@@ -98,3 +98,17 @@ Assignment titled "Few Problems to start with.pdf" in the following
 	- String as Method Parameters
 	- String Class Built-In Methods
 - Practice the above gone through topics using practical learning by solving some problems from 'Java String Lab Practice' and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/28-01-2025) in Github
+
+### Date: 29-01-2025
+- Deep-Dive into Java String
+	- String Handling
+	- More String Class Built-In Methods
+	- StringBuilder and toString()
+- Successfully completed all practice problems of Assignment named 'Java String Practice Problems' and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/29-01-2025) in Github Repo.
+- Gone Through in the 'Built-In Function' Documentation
+	- Common Built-In Functions
+		- Random Method
+		- Math Method
+		- Other Utility Methods
+	- Date & Time Built-In Functions
+- Successfully completed all practice problems of Assignment named 'Built-In Function Practice Problem' and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/29-01-2025) in Github Repo.
