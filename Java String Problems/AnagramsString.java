@@ -2,6 +2,8 @@ import java.util.*;
 
 public class AnagramsString {
     private static boolean areAnagrams(String str1, String str2) {
+        str1 = str1.replaceAll(" ", "").toLowerCase();
+        str2 = str2.replaceAll(" ", "").toLowerCase();
         if (str1.length() != str2.length()) 
             return false;
 
