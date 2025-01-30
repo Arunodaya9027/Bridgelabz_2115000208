@@ -2,14 +2,13 @@ import java.util.*;
 
 public class RemoveDuplicatesFromString {
     private static String removeDuplicates(String str) {
-        StringBuilder sb = new StringBuilder();
+        String modifiedStr = "";
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (sb.indexOf(String.valueOf(ch)) == -1) {
-                sb.append(ch);
-            }
+            if (modifiedStr.indexOf(ch) == -1) 
+                modifiedStr += ch;
         }
-        return sb.toString();
+        return modifiedStr;
     }
     
     public static void main(String[] args) {

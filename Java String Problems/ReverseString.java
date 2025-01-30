@@ -2,7 +2,12 @@ import java.util.*;
 
 public class ReverseString {
 	private static String reverse(String str) {
-		return new StringBuilder(str).reverse().toString();
+		char[] charArray = str.toCharArray();
+		String reverseStr = "";
+		for (int i = charArray.length - 1; i >= 0; i--) {
+			reverseStr += charArray[i];
+		}
+		return reverseStr;
 	}
 	
 	public static void main(String[] args) {
