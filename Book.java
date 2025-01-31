@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Book {
     private String title;
     private String author;
@@ -11,26 +9,33 @@ public class Book {
         this.price = price;
     }
 
-    public void display() {
-        System.out.println("Title: " + title);
-        System.out.println("Author: " + author);
-        System.out.println("Price: $" + price);
+    public String getTitle() {
+        return title;
     }
-    
-    public static void main(String[] args) {
-        String title, author;
-        double price;
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter Title of Book: ");
-        title = input.nextLine();
-        System.out.print("\nEnter Author of Book: ");
-        author = input.nextLine();
-        System.out.print("\nEnter Price of Book: ");
-        price = input.nextDouble();
-        
-        Book book = new Book(title, author, price);
-        System.out.println("=== Book Details ===");
-        book.display();
-        input.close();
+
+    public void setTitle(String newTitle) {
+        this.title = newTitle;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String newAuthor) {
+        this.author = newAuthor;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double newPrice) {
+        this.price = newPrice;
+    }
+
+    public void display() {
+        System.out.println("Title: " + getTitle());
+        System.out.println("Author: " + getAuthor());
+        System.out.println("Price: $" + getPrice());
     }
 }

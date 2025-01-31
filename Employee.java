@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Employee {
     private String name;
     private int id;
@@ -11,27 +9,33 @@ public class Employee {
         this.salary = salary;
     }
 
-    public void display() {
-        System.out.println("Employee Name: " + name);
-        System.out.println("Employee ID: " + id);
-        System.out.println("Yearly Salary: $" + salary);
+    public String getName() {
+        return name;
     }
-    
-    public static void main(String[] args) {
-        String name;
-        int id;
-        double salary;
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter Employee Name: ");
-        name = input.nextLine();
-        System.out.print("\nEnter Employee ID: ");
-        id = input.nextInt();
-        System.out.print("\nEnter Yearly Salary: ");
-        salary = input.nextDouble();
-        
-        Employee employee = new Employee(name, id, salary);
-        System.out.println("=== Employee Details ===");
-        employee.display();
-        input.close();
+
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int newId) {
+        this.id = newId;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double newSalary) {
+        this.salary = newSalary;
+    }
+
+    public void display() {
+        System.out.println("Employee Name: " + getName());
+        System.out.println("Employee ID: " + getId());
+        System.out.println("Yearly Salary: $" + getSalary());
     }
 }
