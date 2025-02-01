@@ -112,3 +112,27 @@ Assignment titled "Few Problems to start with.pdf" in the following
 		- Other Utility Methods
 	- Date & Time Built-In Functions
 - Successfully completed all practice problems of Assignment named 'Built-In Function Practice Problem' and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/29-01-2025) in Github Repo.
+
+### Date: 30-01-2025
+- Gone Through in some provided Documentation	
+	- Procedural Programming - Key Features & Limitations
+	- Object-Oriented Programming
+	- Advantages of OOP over Procedural Programming
+	- Differences Between OOP & Procedural Programming
+	- Java Classes & Objects
+
+### Date: 31-01-2025
+- Successfully completed all practice problems of 'Java Class and Object' Assignment and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/30-01-2025) in Github Repo.
+
+- Covered Some more provided Documentation
+	- What is a Constructor?
+	- Coffee Shop Order Problem
+	- Types of Constructors
+	- Constructor Overloading
+	- Access Modifiers
+	- Instance vs. Class Variables and Methods with Example
+
+- Started working on practice problems of Java Constructors from 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment
+
+### Date: 01-02-2025
+- Successfully completed all Lab practice problems of 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/31-01-2025) in Github Repo. 
