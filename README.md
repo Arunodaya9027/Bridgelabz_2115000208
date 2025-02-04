@@ -136,3 +136,15 @@ Assignment titled "Few Problems to start with.pdf" in the following
 
 ### Date: 01-02-2025
 - Successfully completed all Lab practice problems of 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/31-01-2025) in Github Repo. 
+
+### Date: 03-02-2025
+- Go through from the Documentation and covered below topics.
+	- 'this' keyword & its common uses
+	- 'static' keyword features, advantages and disadvantages
+	- Best Practice for Using 'static' keyword
+	- 'instanceOf' operator
+- Started and solved 3 problems of the 'Java this, static, final keywords & instanceof operator' Lab Practice Assignment.
+
+### Date: 04-02-2025
+- Successfully completed all practice problems of 'Java this, static, final key words and instanceof operator' Lab Practice Assignment and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/04-02-2025) in Github Repo.
+
