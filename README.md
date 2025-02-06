@@ -147,4 +147,27 @@ Assignment titled "Few Problems to start with.pdf" in the following
 
 ### Date: 04-02-2025
 - Successfully completed all practice problems of 'Java this, static, final key words and instanceof operator' Lab Practice Assignment and push [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/04-02-2025) in Github Repo.
+- Covered topics from Object Modeling Documentation
+	- Classes vs. Objects in Java
+	- Classes vs. Objects in a Project
+	- Association, Aggregation and Composition
 
+### Date: 05-02-2025
+- Deep-dive more about the Association, Aggregation and Composition
+- Go through documenation of Object Oriented Design Principles
+	- Class Diagram
+	- Object Diagram
+	- Sequence Diagram
+- Completed half of the problems of the 'Object Modeling' Assignment.
+
+### Date: 06-02-2025
+- Completed all practice problems of 'Object Modeling' Assignment and push in this [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/05-02-2025) in Github Repo.
+- Go through the documentation of Inheritance
+	- Inheritance and its Types
+	- Key Features of Inheritance
+	- Override Annotation
+	- Constructor Inheritance
+	- Method Overriding
+	- Polymorphism and Inheritance
+	- Access Modifiers and Inheritance
+- Completed all sample problems of 'Object Oriented Design' Assignment and push in this [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/05-02-2025) in Github Repo.
