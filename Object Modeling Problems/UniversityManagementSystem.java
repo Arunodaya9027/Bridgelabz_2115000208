@@ -86,11 +86,11 @@ class Course {
 
 public class UniversityManagementSystem {
     public static void main(String[] args) {
-        Student student1 = new Student("1", "Alice", 20);
-        Student student2 = new Student("2", "Bob", 21);
+        Student student1 = new Student("1", "Aman", 20);
+        Student student2 = new Student("2", "Bhushan", 21);
 
-        Professor professor1 = new Professor("1", "Dr. Smith");
-        Professor professor2 = new Professor("2", "Dr. Johnson");
+        Professor professor1 = new Professor("1", "Dr. Parthi Soankar");
+        Professor professor2 = new Professor("2", "Mr. Jatin Parihar");
 
         Course course1 = new Course("1", "Math 101");
         Course course2 = new Course("2", "Physics 101");

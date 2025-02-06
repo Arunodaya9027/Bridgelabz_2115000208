@@ -95,8 +95,8 @@ public class CompanyAndDepartments {
         company2.getDepartment(0).joiningEmployee("SE002", "Monu Bhaiya", 100000);
         company2.getDepartment(1).joiningEmployee("SE101", "Aditya Pratap", 85000);
 
-        // company1.companyInfo();
-        // company2.companyInfo();
+        company1.companyInfo();
+        company2.companyInfo();
 
         company1 = null;
         System.gc();

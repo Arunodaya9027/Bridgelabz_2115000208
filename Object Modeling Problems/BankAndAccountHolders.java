@@ -47,13 +47,11 @@ class Account {
     private String accountNumber;
     private double balance;
     private final String accountType;
-    // private Bank bank;
 
     public Account(String accountNumber, double balance, String accountType) {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.accountType = accountType;
-        // this.bank = bank;
     }
 
     public void display() {
