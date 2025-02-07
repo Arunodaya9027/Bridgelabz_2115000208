@@ -171,3 +171,17 @@ Assignment titled "Few Problems to start with.pdf" in the following
 	- Polymorphism and Inheritance
 	- Access Modifiers and Inheritance
 - Completed all sample problems of 'Object Oriented Design' Assignment and push in this [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/05-02-2025) in Github Repo.
+
+### Date: 07-02-2025
+- Further Revision of already completed topics.
+- Go deep on some new topics:
+	- Memory Areas in Java
+	- CharSequence Interface and its implemented Classes
+		- String
+		- StringBuffer
+		- StringBuilder
+		- StringTokenizer
+	- String Pool
+	- Abstraction & Interface
+	- How to Achieve Multiple Inheritance
+- Completed all the practice problems of 'Inheritance' Assignment and pushed solutions in given [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/07-02-2025) in Github Repo.
