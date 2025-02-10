@@ -185,3 +185,12 @@ Assignment titled "Few Problems to start with.pdf" in the following
 	- Abstraction & Interface
 	- How to Achieve Multiple Inheritance
 - Completed all the practice problems of 'Inheritance' Assignment and pushed solutions in given [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/07-02-2025) in Github Repo.
+
+### Date: 09-02-2025
+- Learn more about Encapsulation, Code Reusablity, Data hiding and Maintenance.
+- Learn about all types of Polymorphism and its use cases.
+
+### Date: 10-02-2025
+- Learn about Abstract classes and Interfaces deeply
+- Typecasting object in Interface
+- Completed all the practice problems of Assignment named 'Submission of Encapsulation, Polymorphism, Interface and Abstract Class' and pushed solutions in given [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/10-02-2025) in Github Repo.
