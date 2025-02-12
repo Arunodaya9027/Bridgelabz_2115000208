@@ -83,17 +83,8 @@ class TasksLinkedList {
     }
 
     public void delete(String taskId) {
-        if (head == null) {
+        if (head == null) 
             System.out.println("List is empty");
-        }
-        // else if (head.taskId.equals(taskId)) {
-        //     Task temp = head;
-        //     while (temp.next != head) 
-        //         temp = temp.next;
-        //     head = head.next;
-        //     temp.next = head;
-        //     System.out.println("Task is deleted");
-        // }
         else {
             Task temp = head;
             while (temp.next != head) {
