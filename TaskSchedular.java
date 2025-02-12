@@ -16,6 +16,7 @@ class Task {
 
 class TasksLinkedList {
     Task head;
+    Task current;
 
     public int sizeOf() {
         if(head == null)
@@ -40,7 +41,7 @@ class TasksLinkedList {
 
     public void addRecordAtBeginning(Task node) {
         if (head == null) {
-            head = node;
+            head = current = node;
             head.next = head;
         }
         else {
@@ -52,7 +53,7 @@ class TasksLinkedList {
 
     public void addRecordAtEnd(Task node) {
         if (head == null) {
-            head = node;
+            head = current = node;
             head.next = head;
         }
         else 
@@ -83,22 +84,39 @@ class TasksLinkedList {
     }
 
     public void delete(String taskId) {
-        if (head == null) 
+        if (head == null) {
             System.out.println("List is empty");
-        else {
-            Task temp = head;
-            while (temp.next != head) {
-                if (temp.next.taskId.equals(taskId)) {
-                    temp.next = temp.next.next;
-                    System.out.println("Task is deleted");
-                    return;
-                }
-                temp = temp.next;
-            }
-
-            System.out.printf("Task with id %s doesn't exists, can't be deleted\n", taskId);
+            return;
         }
+    
+        Task temp = head, prev = null;
+        if (head.taskId.equals(taskId)) {
+            if (head.next == head)  
+                head = null; 
+            else {
+                Task last = head;
+                while (last.next != head) {
+                    last = last.next;
+                }
+                head = head.next;
+                last.next = head;
+            }
+            System.out.println("Task is deleted");
+            return;
+        }
+        
+        while (temp.next != head) {
+            if (temp.next.taskId.equals(taskId)) {
+                temp.next = temp.next.next;
+                System.out.println("Task is deleted");
+                return;
+            }
+            temp = temp.next;
+        }
+    
+        System.out.printf("Task with id %s doesn't exist, can't be deleted\n", taskId);
     }
+    
 
     public void search(int priority) {
         if(head == null)
@@ -117,6 +135,18 @@ class TasksLinkedList {
 
             System.out.printf("Task with priority %d is doesn't exists!\n", priority);
         }
+    }
+
+    public void viewAndMove() {
+        if (current == null) {
+            System.out.println("No tasks available.");
+            return;
+        }
+        System.out.println("Current Task: " + current.taskId);
+        System.out.println("Current Task Name: " + current.taskName);
+        System.out.println("Priority Level: " + current.priority);
+        System.out.println("Due Date: " + current.dueDate);
+        current = current.next;
     }
 
     public void display() {
@@ -144,6 +174,8 @@ public class TaskSchedular {
         tasks.addRecordAtMid(new Task("T4", "Task 4", 4, "2021-09-04"), 4);
         tasks.addRecordAtMid(new Task("T5", "Task 5", 5, "2021-09-05"), 2);
         tasks.display();
+        tasks.viewAndMove();
+        tasks.viewAndMove();
         tasks.delete("T3");
         tasks.display();
         tasks.search(4);
