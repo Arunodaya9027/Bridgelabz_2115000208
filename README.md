@@ -194,3 +194,56 @@ Assignment titled "Few Problems to start with.pdf" in the following
 - Learn about Abstract classes and Interfaces deeply
 - Typecasting object in Interface
 - Completed all the practice problems of Assignment named 'Submission of Encapsulation, Polymorphism, Interface and Abstract Class' and pushed solutions in given [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/10-02-2025) in Github Repo.
+
+### Date: 11-02-2025
+- Gone through the Documentation of Linked List
+	- Types of Data Structures and their key features
+	- What is Linked List?
+	- Types of Linked List
+	- Advantages and Disadvantages of Linked List
+	- Implementation of Linked List in Java
+
+- Completed 5 of the 9 practice problems of 'Linked List' Assignment and pushed in [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/11-02-2025) in Github Repo.
+
+### Date: 12-02-2025
+- Completed rest of the practice problems of 'Linked List' Assignment and pushed solutions in given [branch](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/11-02-2025) in Github Repo.
+- Done a quick revision.
+- Deep-Dive in some topics
+	- Thread Safety
+	- 'tail' compulsion in Linked List
+	- Alternative approach of 1 question named "Social Media" using multiple Linked List
+- Learn Basic about Stacks
+
+### Date: 13-02-2025
+- Gone through the Documentation of Stacks, Queues, HashMap and Hashing Function
+	- Stacks
+		- Defination & Principle
+		- Operations 
+		- Use cases
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- Queues
+		- Defination & Principle
+		- Operations 
+		- Use cases
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- HashMap
+		- Defination
+		- Use Cases
+		- Internal Implementations
+		- Operations
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- Hashing Function
+		- What is Hashing?
+		- hashCode() Method and its rules of Overriding
+		- Hashing in Java Collections
+		- Steps for Hashing in Java
+		- Common Hashing Algorithms
+		- Applications
+	
+- Solved all the practice problems successfully of 'Stacks, Queues, HashMap and Hashing Function' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/13-02-2025) in Github Repo.
