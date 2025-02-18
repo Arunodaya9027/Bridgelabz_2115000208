@@ -8,10 +8,7 @@ abstract class WarehouseItem {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
-    }
-
+    public String getName() {return name;}
     public abstract void displayItemInfo();
 }
 
@@ -64,9 +61,7 @@ class Storage<T extends WarehouseItem> {
         storedItems.add(item);
     }
 
-    public List<T> getList() {
-        return storedItems;
-    }
+    public List<T> getList() {return storedItems;}
 }
 
 class WarehouseUtility {

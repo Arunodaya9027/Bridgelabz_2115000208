@@ -8,10 +8,7 @@ abstract class JobRole {
         this.jobTitle = jobTitle;
     }
 
-    public String getJobTitle() {
-        return jobTitle;
-    }
-
+    public String getJobTitle() {return jobTitle;}
     public abstract void displayJobRoleInfo();
 }
 
@@ -64,9 +61,7 @@ class Resume<T extends JobRole> {
         resumes.add(resume);
     }
 
-    public List<T> getResumes() {
-        return resumes;
-    }
+    public List<T> getResumes() {return resumes;}
 }
 
 class ResumeUtility {

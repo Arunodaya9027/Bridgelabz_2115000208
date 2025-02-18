@@ -5,9 +5,7 @@ class Category {
         this.categoryName = categoryName;
     }
 
-    public String getCategory() {
-        return categoryName;
-    }
+    public String getCategory() {return categoryName;}
 }
 
 class BookCategory extends Category {
@@ -45,13 +43,8 @@ class Product<T extends Category> {
         System.out.println("Product: " + name + " \t| Category: " + category.getCategory() + " \t| Price: $" + price + " \t| Price After Discount: $" + discountedPrice);
     }
 
-    public double getPrice() {
-        return price;
-    }
-
-    public void setDiscountedPrice(double price) {
-        this.discountedPrice = price;
-    }
+    public double getPrice() {return price;}
+    public void setDiscountedPrice(double price) {this.discountedPrice = price;}
 }
 
 class Marketplace {

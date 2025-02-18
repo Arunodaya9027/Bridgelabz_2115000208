@@ -8,10 +8,7 @@ abstract class CourseType {
         this.courseName = courseName;
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
-
+    public String getCourseName() {return courseName;}
     public abstract void displayCourseInfo();
 }
 
@@ -66,9 +63,7 @@ class Course<T extends CourseType> {
         courses.add(course);
     }
 
-    public List<T> getList() {
-        return courses;
-    }
+    public List<T> getList() {return courses;}
 }
 
 class CourseUtility {
