@@ -247,3 +247,35 @@ Assignment titled "Few Problems to start with.pdf" in the following
 		- Applications
 	
 - Solved all the practice problems successfully of 'Stacks, Queues, HashMap and Hashing Function' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/13-02-2025) in Github Repo.
+
+### Date: 14-02-2025
+- Gone Through the Sorting Algorithms Documentation
+	- Comparison & Non-comparison Based Sorting
+	- Comparison Based: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort, Heap Sort
+	- Non-Comparison Based: Counting Sort, Radix Sort, Bucket Sort
+
+- Solved all the practice problems successfully of 'Sorting Algorithm' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/14-02-2025) in Github Repo.
+
+- Gone Thorugh the Documentaion of Linear Search and Binary Search
+
+### Date: 15-02-2025
+- Gone Thorugh the Documentaion of:
+	- StringBuffer and StringBuilder
+	- BufferReader, FileReader and InputStreamReader
+
+- Solved all the practice problems successfully of 'StringBuilder', 'StringBuffer', 'Linear Search', 'Binary Search', 'BufferReader', 'FileReader' and 'InputStreamReader' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/15-02-2025) in Github Repo.
+
+### Date: 16-02-2025
+- Gone Through the Documention of Algorithm's Runtime Analysis and Big-O Notation
+- Read about Best Programming Practices to reduce Space and Time Complexity.
+
+### Date: 17-02-2025
+Solved all the practice problems successfully of 'Algorithm's Runtime Analysis' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/17-02-2025) in Github Repo.
+
+### Date: 18-02-2025
+- Gone through the documentation of Generics
+	- Generics & its Usage
+	- Generics Types & Bounded Type Parameters
+	- Wildcards and its types in Generics
+
+- - Solved all the practice problems successfully of 'Java Generics' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/18-02-2025) in Github Repo.
