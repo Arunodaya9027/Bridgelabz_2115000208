@@ -261,7 +261,7 @@ Assignment titled "Few Problems to start with.pdf" in the following
 ### Date: 15-02-2025
 - Gone Thorugh the Documentaion of:
 	- StringBuffer and StringBuilder
-	- BufferReader, FileReader and InputStreamReader
+	- Java File Handling: BufferReader, FileReader and InputStreamReader
 
 - Solved all the practice problems successfully of 'StringBuilder', 'StringBuffer', 'Linear Search', 'Binary Search', 'BufferReader', 'FileReader' and 'InputStreamReader' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/15-02-2025) in Github Repo.
 
@@ -279,3 +279,56 @@ Solved all the practice problems successfully of 'Algorithm's Runtime Analysis' 
 	- Wildcards and its types in Generics
 
 - - Solved all the practice problems successfully of 'Java Generics' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/18-02-2025) in Github Repo.
+
+### Date: 19-02-2025
+- Started the Java Collections
+	- Collection Framework and its heirarchy
+	- List Interface and its Implementations
+	- Set Interface and its Implementations
+
+- Solved some List and Set interface practice problems successfully of 'Java Collections' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/19-02-2025) in Github Repo.
+
+### Date: 20-02-2025
+- Learned further about Java Collections
+	- Queue Interface and its Implementations
+	- Deque Interface and its Implementations
+	- Map Interface and its Implementations
+
+- Learned a little about 'Exceptions' in Java
+	- Errors vs. Exceptions
+	- What is Exception?
+	- Cheched vs. Unchecked Exceptions
+
+- Solved all left practice problems successfully of 'Java Collections' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/19-02-2025) in Github Repo.
+
+- Given my review of 4th week of Java Training Journey.
+
+### Date: 21-02-2025
+- Gone through 'Java Streams' documentation
+	- Java I/O Streams
+	- Types of Streams
+
+- Solved all the practice problems successfully of 'Java Streams' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/21-02-2025/Java%20Streams) in Github Repo.
+
+- Learned further about 'Java Exception Handling'
+	- Exception Handling Mechanism
+	- try-catch block and finally block
+	- throw and throws keyword
+	- Creating Custom Exceptions
+	- Extending Exception Class
+
+- Solved all the practice problems successfully of 'Java Exception Handling' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/21-02-2025/Java%20Exceptions) in Github Repo.
+
+### Date: 22-02-2025
+- Gone through the 'Java Regex' documentation:
+	- What is Regular Expression?
+	- Java Regex API
+	- Regex MetaCharacters and Quantifiers
+	- Common Regex Patterns
+	- Java Regex Methods
+
+- Gone through the 'Java JUnit' documentation:
+	- What is JUnit?
+	- JUnit Annotations
+
+- Solved all the practice problems successfully of 'Java Regex and JUnit' Assignment and pushed [here](https://github.com/Arunodaya9027/Bridgelabz_2115000208/tree/feature/22-02-2025) in Github Repo.
