@@ -1,0 +1,32 @@
+[
+  {
+    "RollNo": "101",
+    "Name": "Aarav Sharma",
+    "Email": "aarav.sharma@example.com",
+    "GraduationYear": 2023
+  },
+  {
+    "RollNo": "102",
+    "Name": "Isha Patel",
+    "Email": "isha.patel@example.com",
+    "GraduationYear": 2024
+  },
+  {
+    "RollNo": "103",
+    "Name": "Rohan Gupta",
+    "Email": "rohan.gupta@example.com",
+    "GraduationYear": 2023
+  },
+  {
+    "RollNo": "104",
+    "Name": "Ananya Singh",
+    "Email": "ananya.singh@example.com",
+    "GraduationYear": 2025
+  },
+  {
+    "RollNo": "105",
+    "Name": "Karan Mehta",
+    "Email": "karan.mehta@example.com",
+    "GraduationYear": 2024
+  }
+]
