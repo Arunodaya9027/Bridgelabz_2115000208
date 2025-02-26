@@ -10,16 +10,16 @@ import java.sql.Statement;
 public class DatabaseToJSON {
     public static void main(String[] args) {
         try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root", "password");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_master1", "root", "arun@1234");
             Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery("SELECT * FROM users");
+            ResultSet rs = stmt.executeQuery("SELECT * FROM student_master");
 
             JSONArray jsonArray = new JSONArray();
             while (rs.next()) {
                 JSONObject obj = new JSONObject();
-                obj.put("id", rs.getInt("id"));
-                obj.put("name", rs.getString("name"));
-                obj.put("email", rs.getString("email"));
+                obj.put("Id", rs.getInt("Student_ID"));
+                obj.put("Name", rs.getString("Student_FName"));
+                obj.put("Email", rs.getString("email"));
                 jsonArray.put(obj);
             }
 
